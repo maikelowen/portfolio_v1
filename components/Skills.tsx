@@ -31,11 +31,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="js.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className=' text-2xl md:text-3xl font-bold text-black opacity-100'>
                           75%
                       </p>
                   </div>
@@ -51,11 +51,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="React.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           60%
                       </p>
                   </div>
@@ -71,11 +71,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="nextjs.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-coverw-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           80%
                       </p>
                   </div>
@@ -91,11 +91,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="tailwindcss.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           60%
                       </p>
                   </div>
@@ -111,11 +111,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="solidity.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           80%
                       </p>
                   </div>
@@ -132,11 +132,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="hardhat.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           75%
                       </p>
                   </div>
@@ -153,11 +153,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="java.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           70%
                       </p>
                   </div>
@@ -173,11 +173,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="androidstudio.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           50%
                       </p>
                   </div>
@@ -193,11 +193,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="nodejs-logo.svg"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           65%
                       </p>
                   </div>
@@ -213,11 +213,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="mysql-logo.svg"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           50%
                       </p>
                   </div>
@@ -233,11 +233,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="mongo.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           60%
                       </p>
                   </div>
@@ -253,11 +253,11 @@ function Skills({directionLeft}: Props) {
               transition={{ duration: 1}}
               whileInView={{ opacity: 1, x:0}}
               src="sanity.png"
-              className='rounded-full border border-gray-500 object-cover w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
+              className='rounded-full border border-gray-500 object-cover w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out '
               />
-              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
+              <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-14 h-14 md:w-24 md:h-24 xl:w-28 xl:h-28 rounded-full z-0'>
                   <div className='flex items-center justify-center h-full'>
-                      <p className='text-3xl font-bold text-black opacity-100'>
+                      <p className='text-2xl md:text-3xl font-bold text-black opacity-100'>
                           50%
                       </p>
                   </div>

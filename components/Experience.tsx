@@ -23,7 +23,7 @@ export default function Experience({}: Props) {
             Experience
         </h3>
         <div className='mt-20 w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/40'>
-        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] 
+        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] 
         snap-center bg-[#292929] p-0 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden '>
             <motion.img
             initial={{
@@ -41,12 +41,12 @@ export default function Experience({}: Props) {
             alt="image"
             />
             <div className='px-0 md:px-10'>
-                <h4 className='text-4xl font-light'>
+                <h4 className='md:text-4xl font-light text-2xl'>
                     Software Developer
                 </h4>
                 <p className='font-bold text-2xl mt-1'>Kubics</p>
                 <p className='uppercase py-5 text-gray-300'>July 2022 - November 2022 </p>
-                <ul className='list-disc space-y-4 ml-5 text-lg'>
+                <ul className='list-disc space-y-4 ml-5 md:text-lg text-sm'>
                     <li>
                         Design and build a full stack application for a film making company
                     </li>
@@ -61,7 +61,7 @@ export default function Experience({}: Props) {
                 </ul>
             </div>
         </article>
-        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] 
+        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] 
         snap-center bg-[#292929] p-0 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden '>
             <motion.img
             initial={{
@@ -79,13 +79,13 @@ export default function Experience({}: Props) {
             alt="image"
             />
             <div className='px-0 md:px-10'>
-                <h4 className='text-4xl font-light'>
+             <h4 className='md:text-4xl font-light text-2xl'>
                     Software Developer
                 </h4>
                 <p className='font-bold text-2xl mt-1'>Freelancer</p>
                 <p className='uppercase py-5 text-gray-300'> Jan 2022 - July 2022</p>
                 <p className='text-lg mb-2'>Projects delivered:</p>
-                <ul className='list-disc space-y-4 ml-5 text-lg'>
+                <ul className='list-disc space-y-4 ml-5 md:text-lg text-sm'>
                     <li>
                     NFT Marketplace                 
                     </li>
@@ -101,7 +101,7 @@ export default function Experience({}: Props) {
                 </ul>
             </div>
         </article>
-        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] 
+        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] 
         snap-center bg-[#292929] p-0 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden '>
             <motion.img
 /*             initial={{
@@ -119,12 +119,12 @@ export default function Experience({}: Props) {
             alt="image"
             />
             <div className='px-0 md:px-10'>
-                <h4 className='text-4xl font-light'>
+             <h4 className='md:text-4xl font-light text-2xl'>
                 IT Project Manager
                 </h4>
                 <p className='font-bold text-2xl mt-1'>Marfeel</p>
                 <p className='uppercase py-5 text-gray-300'>Sept 2019 - August 2022</p>
-                <ul className='list-disc space-y-4 ml-5 text-lg'>
+                <ul className='list-disc space-y-4 ml-5 md:text-lg text-sm'>
                     <li>
                         Leading a team of developers to build different PWA applications
                     </li>
@@ -140,7 +140,7 @@ export default function Experience({}: Props) {
                 </ul>
             </div>
         </article>
-        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] 
+        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] 
         snap-center bg-[#292929] p-0 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden '>
             <motion.img
             initial={{
@@ -158,12 +158,12 @@ export default function Experience({}: Props) {
             alt="image"
             />
             <div className='px-0 md:px-10'>
-                <h4 className='text-4xl font-light'>
+                <h4 className='md:text-4xl font-light text-2xl'>
                     IT Project Manager
                 </h4>
                 <p className='font-bold text-2xl'>Optima</p>
                 <p className='uppercase py-5 text-gray-300'>NOV 2018 - AUG 2019</p>
-                <ul className='list-disc space-y-4 ml-5 text-lg'>
+                <ul className='list-disc space-y-4 ml-5 md:text-lg text-sm'>
                     <li>
                     Leading a team of developers to build online gaming platforms
                     </li>
