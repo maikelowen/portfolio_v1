@@ -114,7 +114,7 @@ export default function Experience({}: Props) {
                 y:0
             }}
             viewport={{ once: true}}
-            className='w-15 h-12  object-cover object-center m-10'
+            className='w-15 h-14  object-cover object-center m-10'
             src='./mafeel.png'
             alt="image"
             />
