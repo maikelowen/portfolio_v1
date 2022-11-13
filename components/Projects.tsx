@@ -24,7 +24,7 @@ function Projects({}: Props) {
                     whileInView={{ opacity:1, y:0}}
                     viewport={{once: true}}
                     className='mt-24 h-[100%] rounded-lg'
-                    src='../kubics.gif'
+                    src='../DreamHub.gif' 
                     alt=''
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -32,10 +32,10 @@ function Projects({}: Props) {
                             <span className=' underline decoration-[#F7AB0A]/50'>
                                 Case of Study 1:
                             </span>
-                            {" "} Kubics
+                            {" "} DreamHub
                         </h4>
                         <p className='text-lg md:text-left text-justify'>
-                            NFT full stack application. Connected to a Mongo DB in the cloud for internal managment, and to a Smart Contract under Ethereum blockchain to generate and mint the NFT collection. 
+                            NFT Marketplace. Web app built to create, buy and sell NFTs from different collections under Polygon blockchain.
                         </p>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ function Projects({}: Props) {
                     whileInView={{ opacity:1, y:0}}
                     viewport={{once: true}}
                     className='mt-24 h-[100%] rounded-lg'
-                    src='../DreamHub.gif'
+                    src='../kubics.gif'
                     alt=''
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -60,10 +60,10 @@ function Projects({}: Props) {
                             <span className=' underline decoration-[#F7AB0A]/50'>
                                 Case of Study 2:
                             </span>
-                            {" "} DreamHub
+                            {" "} Kubics
                         </h4>
                         <p className='text-lg md:text-left text-justify'>
-                            NFT Marketplace. Web app built to create, buy and sell NFTs from different collections under Polygon blockchain.
+                            NFT full stack application. Connected to a Mongo DB in the cloud for internal managment, and to a Smart Contract under Ethereum blockchain to generate and mint the NFT collection. 
                         </p>
                     </div>
                 </div>
