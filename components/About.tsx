@@ -33,7 +33,7 @@ export default function About({}: Props) {
             <span className='underline decoration-[#F7AB0A]'> background</span>   
             </h4>
             <p className='text-sm text-justify max-w-lg'>
-            I love building! Three years ago, I decided to shift my career from Project Manager to Software Developer. Since then, I love what I do and I enjoy every moment of it. Even though initially I decided to study software development only to understand more about the process of development, now I only wish to continue building new components and facing new chalenges. As a personal hobbies, I have recently built a camper van to travell around the world. Now, my next step is to build my own house.            </p>
+            Three years ago, I decided to shift my career from Project Manager to Software Developer. Since then, I love what I do and I enjoy every moment of it. Even though initially I decided to study software development only to understand more about the process of development, now I only wish to continue building new components and facing new chalenges. As a personal hobbies, I have recently built a camper van to travell around the world. Now, my next step is to build my own house.            </p>
         </div>
     </div>
   )
