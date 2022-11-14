@@ -17,7 +17,7 @@ export default function Experience({}: Props) {
     whileInView={{
         opacity:1,
     }}
-    className='h-screen flex relative overflow-hidden flex-col text-lft max-w-full  md:flex-row px-10 justify-evenly mx-auto items-center '
+    className='relative flex flex-col items-center h-screen max-w-full px-10 mx-auto overflow-hidden text-lft md:flex-row justify-evenly '
     >
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             Experience
@@ -36,17 +36,17 @@ export default function Experience({}: Props) {
                 y:0
             }}
             viewport={{ once: true}}
-            className='w-15 h-15 rounded-full  object-cover object-center mt-5'
+            className='object-cover object-center mt-5 rounded-full w-15 h-15'
             src='./kubics.ico'
             alt="image"
             />
             <div className='px-20 md:px-10'>
-                <h4 className='md:text-4xl font-light text-2xl'>
+                <h4 className='text-2xl font-light md:text-4xl'>
                     Software Developer
                 </h4>
-                <p className='font-bold text-2xl mt-1'>Kubics</p>
-                <p className='uppercase py-5 text-gray-300'>July 2022 - November 2022 </p>
-                <ul className='list-disc space-y-4 ml-5 md:text-lg text-sm'>
+                <p className='mt-1 text-2xl font-bold'>Kubics</p>
+                <p className='py-5 text-gray-300 uppercase'>July 2022 - November 2022 </p>
+                <ul className='ml-5 space-y-4 text-sm list-disc md:text-lg'>
                     <li>
                         Design and build a full stack application for a film making company
                     </li>
@@ -74,18 +74,18 @@ export default function Experience({}: Props) {
                 y:0
             }}
             viewport={{ once: true}}
-            className='w-15 h-15  object-cover object-center m-5 pt-10'
+            className='object-cover object-center pt-10 m-5 w-15 h-15'
             src='./freelancer-logo-old.svg'
             alt="image"
             />
             <div className='px-20 md:px-10'>
-             <h4 className='md:text-4xl font-light text-2xl'>
+             <h4 className='text-2xl font-light md:text-4xl'>
                     Software Developer
                 </h4>
-                <p className='font-bold text-2xl mt-1'>Freelancer</p>
-                <p className='uppercase py-5 text-gray-300'> Jan 2022 - July 2022</p>
-                <p className='text-lg mb-2'>Projects delivered:</p>
-                <ul className='list-disc space-y-4 ml-5 md:text-lg text-sm'>
+                <p className='mt-1 text-2xl font-bold'>Freelancer</p>
+                <p className='py-5 text-gray-300 uppercase'> Jan 2022 - July 2022</p>
+                <p className='mb-2 text-lg'>Projects delivered:</p>
+                <ul className='ml-5 space-y-4 text-sm list-disc md:text-lg'>
                     <li>
                     NFT Marketplace                 
                     </li>
@@ -114,17 +114,17 @@ export default function Experience({}: Props) {
                 y:0
             }}
             viewport={{ once: true}} */
-            className='w-15 h-15 object-cover object-center m-10'
+            className='object-cover object-center m-10 w-15 h-15'
             src='./mafeel_v1.png'
             alt="image"
             />
             <div className='px-20 md:px-10'>
-             <h4 className='md:text-4xl font-light text-2xl'>
+             <h4 className='text-2xl font-light md:text-4xl'>
                 IT Project Manager
                 </h4>
-                <p className='font-bold text-2xl mt-1'>Marfeel</p>
-                <p className='uppercase py-5 text-gray-300'>Sept 2019 - August 2022</p>
-                <ul className='list-disc space-y-4 ml-5 md:text-lg text-sm'>
+                <p className='mt-1 text-2xl font-bold'>Marfeel</p>
+                <p className='py-5 text-gray-300 uppercase'>Sept 2019 - August 2022</p>
+                <ul className='ml-5 space-y-4 text-sm list-disc md:text-lg'>
                     <li>
                         Leading a team of developers to build different PWA applications
                     </li>
@@ -153,17 +153,17 @@ export default function Experience({}: Props) {
                 y:0
             }}
             viewport={{ once: true}}
-            className='w-15 h-15 object-cover object-center '
+            className='object-cover object-center w-15 h-15 '
             src='./optima.png'
             alt="image"
             />
             <div className='px-0 md:px-10'>
-                <h4 className='md:text-4xl font-light text-2xl'>
+                <h4 className='text-2xl font-light md:text-4xl'>
                     IT Project Manager
                 </h4>
-                <p className='font-bold text-2xl'>Optima</p>
-                <p className='uppercase py-5 text-gray-300'>NOV 2018 - AUG 2019</p>
-                <ul className='list-disc space-y-4 ml-5 md:text-lg text-sm'>
+                <p className='text-2xl font-bold'>Optima</p>
+                <p className='py-5 text-gray-300 uppercase'>NOV 2018 - AUG 2019</p>
+                <ul className='ml-5 space-y-4 text-sm list-disc md:text-lg'>
                     <li>
                     Leading a team of developers to build online gaming platforms
                     </li>
