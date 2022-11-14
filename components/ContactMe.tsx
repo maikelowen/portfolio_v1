@@ -20,7 +20,7 @@ const onSubmit: SubmitHandler<Inputs> = formData => (
 );
 
   return (
-    <div className='w-screen h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    <div className='w-full h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className=' absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             Contact 
         </h3>
@@ -48,16 +48,16 @@ const onSubmit: SubmitHandler<Inputs> = formData => (
 
                 <form 
                 onSubmit={handleSubmit(onSubmit)}
-                className='flex flex-col space-y-2 w-fit mx-auto'>
+                className='flex flex-col space-y-2 w-12/12 mx-auto'>
                     <div className='flex space-x-2'>
                         <input 
                         {...register('name')}
                         placeholder='Name'
-                        className='contactInput' type="text" />
+                        className='contactInput w-6/12' type="text" />
                         <input 
                         {...register('email')}
                         placeholder='Email'
-                        className='contactInput' type="email"/>
+                        className='contactInput w-6/12' type="email"/>
                     </div>
                     <input 
                     {...register('subject')}

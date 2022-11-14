@@ -14,7 +14,7 @@ function Projects({}: Props) {
         <div className='relative w-full flex overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/40 z-20'>
                 {/* Projects */}
 
-                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-4 md:p-44 h-screen'>
                     <motion.img
                     initial={{
                         y:-300,
@@ -23,11 +23,11 @@ function Projects({}: Props) {
                     transition={{ duration:1.2}}
                     whileInView={{ opacity:1, y:0}}
                     viewport={{once: true}}
-                    className='mt-24 h-[100%] rounded-lg'
+                    className='mt-24 rounded-lg'
                     src='../DreamHub.gif' 
                     alt=''
                     />
-                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                    <div className='space-y-10 px-20 md:px-10 max-w-6xl'>
                         <h4 className='text-4xl font-semibold text-center'>
                             <span className=' underline decoration-[#F7AB0A]/50'>
                                 Case of Study 1:
@@ -42,7 +42,7 @@ function Projects({}: Props) {
                 
                 {/* Projects */}
 
-                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-4 md:p-44 h-screen'>
                     <motion.img
                     initial={{
                         y:-300,
@@ -51,11 +51,11 @@ function Projects({}: Props) {
                     transition={{ duration:1.2}}
                     whileInView={{ opacity:1, y:0}}
                     viewport={{once: true}}
-                    className='mt-24 h-[100%] rounded-lg'
+                    className='mt-24  rounded-lg'
                     src='../kubics.gif'
                     alt=''
                     />
-                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                    <div className='space-y-10 px-20 md:px-10 max-w-6xl'>
                         <h4 className='text-4xl font-semibold text-center'>
                             <span className=' underline decoration-[#F7AB0A]/50'>
                                 Case of Study 2:
@@ -70,7 +70,7 @@ function Projects({}: Props) {
                             
                 {/* Projects */}
 
-                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-4 md:p-44 h-screen'>
                     <motion.img
                     initial={{
                         y:-300,
@@ -79,11 +79,11 @@ function Projects({}: Props) {
                     transition={{ duration:1.2}}
                     whileInView={{ opacity:1, y:0}}
                     viewport={{once: true}}
-                    className='mt-24 h-[100%] rounded-lg'
+                    className='mt-24  rounded-lg'
                     src='../KryptoDeskFoto.jpeg'
                     alt=''
                     />
-                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                    <div className='space-y-10 px-20 md:px-10 max-w-6xl'>
                         <h4 className='text-4xl font-semibold text-center'>
                             <span className=' underline decoration-[#F7AB0A]/50'>
                                 Case of Study 3:

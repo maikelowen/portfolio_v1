@@ -40,7 +40,7 @@ export default function Experience({}: Props) {
             src='./kubics.ico'
             alt="image"
             />
-            <div className='px-0 md:px-10'>
+            <div className='px-20 md:px-10'>
                 <h4 className='md:text-4xl font-light text-2xl'>
                     Software Developer
                 </h4>
@@ -78,7 +78,7 @@ export default function Experience({}: Props) {
             src='./freelancer-logo-old.svg'
             alt="image"
             />
-            <div className='px-0 md:px-10'>
+            <div className='px-20 md:px-10'>
              <h4 className='md:text-4xl font-light text-2xl'>
                     Software Developer
                 </h4>
@@ -118,7 +118,7 @@ export default function Experience({}: Props) {
             src='./mafeel_v1.png'
             alt="image"
             />
-            <div className='px-0 md:px-10'>
+            <div className='px-20 md:px-10'>
              <h4 className='md:text-4xl font-light text-2xl'>
                 IT Project Manager
                 </h4>
@@ -141,7 +141,7 @@ export default function Experience({}: Props) {
             </div>
         </article>
         <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] 
-        snap-center bg-[#292929] p-0 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden '>
+        snap-center bg-[#292929] md:p-0 px-20 pt-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden '>
             <motion.img
             initial={{
                 y:-100,
