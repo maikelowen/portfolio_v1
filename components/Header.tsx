@@ -38,20 +38,8 @@ export default function Header({}: Props) {
                 fgColor="white"
                 bgColor="transparent"
             />
-            <SocialIcon 
-                className='opacity-40 hover:opacity-100'
-                url="https://twitter.com/jaketrent"
-                fgColor="white"
-                bgColor="transparent"
-            />
-            <SocialIcon 
-                className='opacity-40 hover:opacity-100'    
-                url="https://twitter.com/jaketrent"
-                fgColor="white"
-                bgColor="transparent"
-            />
         </motion.div>
-        {/* <Link href="#contact"> */}
+        <Link href="#contact"> 
             <motion.div 
             initial={{
                 x: 500,
@@ -67,15 +55,9 @@ export default function Header({}: Props) {
                 duration: 1.5,
             }}
             className='flex flex-row items-center text-white cursor-pointer'>
-            <SocialIcon 
-                    className='opacity-40 hover:opacity-100'   
-                    network='email'
-                    fgColor="white"
-                    bgColor="transparent"
-                />
-                <p className='uppercase hidden md:inline-flex text-sm text-white opacity-40 hover:opacity-100' >Get in touch!</p>
+                <p className='uppercase md:inline-flex text-sm text-white opacity-40 hover:opacity-100' >Get in touch!</p>
             </motion.div>  
-        {/* </Link> */}
+        </Link>
     </header>
   )
 }
